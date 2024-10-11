@@ -102,7 +102,7 @@ def visual(dataset):
             for num in range(prototype_graph.shape[0]):
                 if graph_id in prototype_graph[num]:
                     prototype = num
-            plt.savefig(f'./visual/{dataset}/prototype_{prototype}/{graph_id}')
+            plt.savefig(f'./visual/{dataset}/prototype_{prototype}/{graph_id}.pdf')
             plt.show()
 
 

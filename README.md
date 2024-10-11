@@ -32,5 +32,8 @@ For visulization top-k (i.e., global-level explanations) on mutagen, run
 python3 visulization
 ```
 
-All hyper-parameter analysis results are avaliable on parameter_analysis/ fold
-contamination results are avaliable on contamination/ fold
+All hyper-parameter analysis results are avaliable on `parameter_analysis` fold
+
+Contamination experiment results are avaliable on `contamination` fold
+ 
+The visulization of Xgnn can be found in `Xgnn_visual` fold
