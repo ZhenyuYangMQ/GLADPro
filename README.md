@@ -26,5 +26,6 @@ For Mutagen datasets, run with defualt setting
 python3 main.py
 
 ```
- 
+The visulization of GLADPro on the Mutagen dataset can be found in `visual/mutagen` fold
+
 The visulization of Xgnn can be found in `visual/Xgnn_visual` fold
