@@ -26,14 +26,5 @@ For Mutagen datasets, run with defualt setting
 python3 main.py
 
 ```
-
-For visulization top-k (i.e., global-level explanations) on mutagen, run
-```
-python3 visulization
-```
-
-All hyper-parameter analysis results are avaliable on `parameter_analysis` fold
-
-Contamination experiment results are avaliable on `contamination` fold
  
-The visulization of Xgnn can be found in `Xgnn_visual` fold
+The visulization of Xgnn can be found in `visual/Xgnn_visual` fold
