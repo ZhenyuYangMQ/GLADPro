@@ -26,6 +26,33 @@ For Mutagen datasets, run with defualt setting
 python3 main.py
 
 ```
-The visulization of GLADPro on the Mutagen dataset can be found in `visual/mutagen` fold
+For BA-TYPE dataset, run with 
+```
 
-The visulization of Xgnn can be found in `visual/Xgnn_visual` fold
+python3 main.py --n_prot 3 --regular 500 --hidden_dim 128 --out_dim 64
+
+```
+For MUTAG dataset, run with 
+```
+
+python3 main.py --epochs 500 --lr 1e-4
+
+```
+For PROTEIN dataset, run with 
+```
+
+python3 main.py --hidden_dim 128 --out_dim 64 --epochs 500 
+
+```
+For DD dataset, run with 
+```
+
+python3 main.py --regular 100 --epochs 500 
+
+```
+For IMDB-BINARY dataset, run with 
+```
+
+python3 main.py --regular 100 --epochs 100 
+
+```

@@ -4,7 +4,7 @@ from torch_geometric.transforms import Constant
 from torch_geometric.datasets import TUDataset
 from torch.utils.data import random_split
 from sklearn.model_selection import StratifiedShuffleSplit
-from data import Mutagen#,MNIST75sp,BA
+from data import Mutagen, BA  #MNIST75sp
 
 def load_data(args,random_state=0):
     randomsplit_data = ['mnist','ENZYMES']
