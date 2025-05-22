@@ -1,6 +1,18 @@
-# GLADPro is a prototype-based method for graph-level anomaly detection with global-level explanations.
+# Global Interpretable Graph-level Anomaly Detection Via Prototype
  
-This is the code for GLADPro
+This is the code for GLADPro - KDD-2025. Thanks to the [PyG](https://pytorch-geometric.readthedocs.io/en/latest/) library.
+
+The paper is now available at [ACM](). If you use our code or results, please kindly cite our paper.
+
+```
+@inproceedings{yang2025gladpro,
+  title={Global Interpretable Graph-level Anomaly Detection Via Prototype},
+  author={Yang, Zhenyu and Zhang, Ge and Wu, Jia and Yang, Jian and Xue, Shan and Beheshti, Amin and Peng, Hao and Sheng, Quan Z.},
+  booktitle={Proc. SIGKDD},
+  pages={1--12},
+  year={2025}
+}
+```
 
 ## System requirement
 
@@ -24,35 +36,24 @@ networkx  2.8.4
 For Mutagen datasets, run with defualt setting
 ```
 python3 main.py
-
 ```
 For BA-TYPE dataset, run with 
 ```
-
-python3 main.py --n_prot 3 --regular 500 --hidden_dim 128 --out_dim 64
-
+python3 main.py --dataset BA-TYPE --n_prot 3 --regular 500 --hidden_dim 128 --out_dim 64
 ```
 For MUTAG dataset, run with 
 ```
-
-python3 main.py --epochs 500 --lr 1e-4
-
+python3 main.py --dataset MUTAG --epochs 500 --lr 1e-4
 ```
 For PROTEIN dataset, run with 
 ```
-
-python3 main.py --hidden_dim 128 --out_dim 64 --epochs 500 
-
+python3 main.py --dataset PROTEINS --hidden_dim 128 --out_dim 64 --epochs 500 
 ```
 For DD dataset, run with 
 ```
-
-python3 main.py --regular 100 --epochs 500 
-
+python3 main.py --dataset DD --regular 100 --epochs 500 
 ```
 For IMDB-BINARY dataset, run with 
 ```
-
-python3 main.py --regular 100 --epochs 100 
-
+python3 main.py --dataset IMDB-BINARY --regular 100 --epochs 100 
 ```
