@@ -6,7 +6,7 @@ The paper is now available at [ACM](). If you use our code or results, please ki
 
 ```
 @inproceedings{yang2025gladpro,
-  title={Global Interpretable Graph-level Anomaly Detection Via Prototype},
+  title={Global Interpretable Graph-level Anomaly Detection via Prototype},
   author={Yang, Zhenyu and Zhang, Ge and Wu, Jia and Yang, Jian and Xue, Shan and Beheshti, Amin and Peng, Hao and Sheng, Quan Z.},
   booktitle={Proc. SIGKDD},
   pages={1--12},
