@@ -2,14 +2,14 @@
  
 This is the code for GLADPro - KDD-2025. Thanks to the [PyG](https://pytorch-geometric.readthedocs.io/en/latest/) library.
 
-The paper is now available at [ACM](). If you use our code or results, please kindly cite our paper.
+The paper is now available at [ACM](https://dl.acm.org/doi/10.1145/3711896.3736983). If you use our code or results, please kindly cite our paper.
 
 ```
-@inproceedings{yang2025gladpro,
+@inproceedings{yang2025global,
   title={Global Interpretable Graph-level Anomaly Detection via Prototype},
-  author={Yang, Zhenyu and Zhang, Ge and Wu, Jia and Yang, Jian and Xue, Shan and Beheshti, Amin and Peng, Hao and Sheng, Quan Z.},
-  booktitle={Proc. SIGKDD},
-  pages={1--12},
+  author={Yang, Zhenyu and Zhang, Ge and Wu, Jia and Yang, Jian and Xue, Shan and Beheshti, Amin and Peng, Hao and Sheng, Quan Z},
+  booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
+  pages={3586--3597},
   year={2025}
 }
 ```
